@@ -1,13 +1,11 @@
-# Portfolio JOHNSLEY DESULMA — Plan d'implémentation
+ Portfolio JOHNSLEY DESULMA — Plan d'implémentation
 
-## Objectif
-Créer un portfolio personnel moderne, premium et animé pour JOHNSLEY DESULMA — Développeur Backend | Web | Cybersécurité — entièrement en HTML/CSS/JS vanilla, hébergé sous XAMPP.
+ Objectif
+ JOHNSLEY DESULMA — Développeur Backend | Web | Cybersécurité — entièrement en HTML/CSS/JS vanilla.
 
----
+ Architecture des fichiers
 
-## Architecture des fichiers
 
-```
 c:\xampp\htdocs\Portfolio\
 ├── index.html          ← Page principale (toutes les sections)
 ├── css/
@@ -15,11 +13,9 @@ c:\xampp\htdocs\Portfolio\
 ├── js/
 │   └── main.js         ← Logique : scroll, animations, EmailJS, navbar
 └── img/                ← Images existantes (DJ.png, Alpha.png, etc.)
-```
 
----
 
-## Design System
+ Design System
 
 | Élément | Valeur |
 |---|---|
@@ -28,16 +24,15 @@ c:\xampp\htdocs\Portfolio\
 | Effets | Glassmorphism, gradients, particules animées, card hover 3D |
 | Mode | Dark mode exclusif, premium |
 
----
 
-## Sections prévues
+ Sections prévues
 
-### 1. Navbar fixe
+1. Navbar fixe
 - Logo `JD` avec animation glitch
 - Liens smooth-scroll : Accueil, À Propos, Expérience, Projets, Compétences, Contact
 - Burger menu responsive
 
-### 2. Hero Section
+ 2. Hero Section
 - Photo de profil (`DJ.png`) avec effet ring lumineux animé
 - **Nom** : JOHNSLEY DESULMA en très grand texte gradienté
 - **Titre** animé (typewriter effect) : Développeur Backend | Web | Cybersécurité
@@ -45,52 +40,51 @@ c:\xampp\htdocs\Portfolio\
 - Boutons CTA : "Voir mes projets" + "Me contacter"
 - Particules flottantes en arrière-plan
 
-### 3. À Propos
+ 3. À Propos
 - Blocs de compétences clés avec icônes
 - Timeline de formation
 - Texte sur l'engagement social (formation jeunes en Haïti)
 - Stats : projets, expérience, étudiants formés
 
-### 4. Expérience Professionnelle
+ 4. Expérience Professionnelle
 - Timeline verticale animée avec deux postes
 - **Coding Club Gonaïves** — Formateur & Développeur
 - **Govibe Startup Coworking Space** — Collaborateur Numérique
 
-### 5. Projets (section phare)
+ 5. Projets (section phare)
 - Grille de cards avec image, titre, description, tags tech
 - Hover effect : flip ou glow 3D
 - Images disponibles : Alpha.png, EduManager.png, JuriPredict.png, TransiGo.png, berceau.png
 - 5 projets : Alpha Clinique, EduManager Pro, Berceau des Petits, TransiGo, JuriPredict
 - Badge "IA" sur JuriPredict
 
-### 6. Compétences
+ 6. Compétences
 - Barres de progression animées
 - Catégories : Langages, Bases de données, Machine Learning, Cybersécurité
 - Icônes tech (SVG inline)
 
-### 7. Objectif / Vision
+ 7. Objectif / Vision
 - Section inspirante avec fond gradient
 - Texte sur la vision : IA + Cybersécurité + Haïti
 
-### 8. Contact
+ 8. Contact
 - Formulaire stylisé (Nom, Email, Message)
 - Intégration EmailJS
 - Texte : "Disponible pour collaborations, stages et opportunités"
 - Liens sociaux (GitHub, LinkedIn)
 
-### 9. Footer
+ 9. Footer
 - Nom + Copyright © 2026
 - Tagline : "Building tech solutions for Haiti"
 
----
 
-## Fichiers à créer
 
-### [NEW] index.html
-### [NEW] css/style.css  
-### [NEW] js/main.js
+ Fichiers à créer
 
----
+ [NEW] index.html
+ [NEW] css/style.css  # [NEW] js/main.js
+
+
 
 ## Vérification
 - Ouvrir `http://localhost/Portfolio/index.html` dans le navigateur
