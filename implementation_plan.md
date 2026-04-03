@@ -1,20 +1,8 @@
- *Portfolio JOHNSLEY DESULMA — Plan d'implémentation*
+ **Portfolio JOHNSLEY DESULMA — Plan d'implémentation**
 
- Objectif
+
  JOHNSLEY DESULMA — Développeur Backend | Web | Cybersécurité — entièrement en HTML/CSS/JS vanilla.
 
- Architecture des fichiers
-
-'''
-c:\xampp\htdocs\Portfolio\
-├── index.html          ← Page principale (toutes les sections)
-├── css/
-│   └── style.css       ← Design system complet + animations
-├── js/
-│   └── main.js         ← Logique : scroll, animations, EmailJS, navbar
-└── img/                ← Images existantes (DJ.png, Alpha.png, etc.)
-
-'''
 
  Design System
 
